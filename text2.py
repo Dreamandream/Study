@@ -11,5 +11,6 @@ sql = 'insert into student values(10006, "张三", "男", 30, "cs")'
 
 cursor.execute(sql)
 
+# 哇哦
 # 数据的增删改需要提交事务（类似保存）
 conn.commit()
